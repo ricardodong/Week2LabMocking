@@ -31,6 +31,11 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
+
+    public void testcaplizename(){
+        assert("Abram Hindle".equals(Main.capitializename("abram hindle")));
+    }
+
     public void testApp()
     {
         assertTrue( true );
